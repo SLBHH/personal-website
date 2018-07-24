@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SLBHH/personal-website.git"
+  },
+  "author": "Sven Behncke",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SLBHH/personal-website/issues"
+  },
+  "homepage": "https://github.com/SLBHH/personal-website#readme"
+}
