@@ -1,3 +1,5 @@
+@import "header";
+
 .light-shadow {
   box-shadow: 2px 8px 16px #e2d7d7f7;
 }
@@ -20,8 +22,10 @@
   .picture-size-mobile {
     width: 75%;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .picture-size-mobile {
-      width: 100%;
-    }
+@media screen and (min-width: 768px) {
+  .picture-size-mobile {
+    width: 100%;
+  }
+}
