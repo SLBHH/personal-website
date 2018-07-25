@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watch 'npm run html' src --interval 0.1",
     "bs": "browser-sync start --server dist/ --files dist/*.{css,html} --serveStatic node_modules",
-    "html": "html-include-comment src/index.html dist/index.html"
+    "html": "html-include-comment src/index.html dist/index.html && html-include-comment src/imprint.html dist/imprint.html"
   },
   "repository": {
     "type": "git",
