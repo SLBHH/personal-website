@@ -1,0 +1,29 @@
+.light-shadow {
+  box-shadow: 2px 8px 16px #e2d7d7f7;
+}
+
+.headline {
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.picture-size-mobile {
+  width: 50%;
+}
+
+@media screen and (min-width: 580px) {
+  .picture-size-mobile {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .picture-size-mobile {
+    width: 100%;
+  }
+}
